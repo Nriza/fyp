@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.admin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:5:5-73:19
+17        android:allowBackup="true"
+17-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\4a73645463199b9fea916370cbff35e3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.ClinicSystem"
+25-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:11:9-50
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:12:9-44
+27        <activity
+27-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:13:9-15:40
+28            android:name="com.example.admin.history"
+28-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:14:13-36
+29            android:exported="false" />
+29-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:15:13-37
+30        <activity
+30-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:16:9-18:40
+31            android:name="com.example.admin.editTool"
+31-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:17:13-37
+32            android:exported="false" />
+32-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:18:13-37
+33        <activity
+33-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:19:9-22:69
+34            android:name="com.example.admin.docappointment"
+34-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:20:13-43
+35            android:exported="false"
+35-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:21:13-37
+36            android:theme="@style/Theme.ClinicSystem.NoActionBar" />
+36-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:22:13-66
+37        <activity
+37-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:23:9-25:40
+38            android:name="com.example.admin.AppTreatment"
+38-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:24:13-41
+39            android:exported="false" />
+39-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:26:9-28:40
+41            android:name="com.example.admin.addStock"
+41-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:27:13-37
+42            android:exported="false" />
+42-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:29:9-32:69
+44            android:name="com.example.admin.nurseMain"
+44-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:30:13-38
+45            android:exported="false"
+45-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:31:13-37
+46            android:theme="@style/Theme.ClinicSystem.NoActionBar" />
+46-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:32:13-66
+47        <activity
+47-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:33:9-36:69
+48            android:name="com.example.admin.appointment"
+48-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:34:13-40
+49            android:exported="false"
+49-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:35:13-37
+50            android:theme="@style/Theme.ClinicSystem.NoActionBar" />
+50-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:36:13-66
+51        <activity
+51-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:37:9-41:57
+52            android:name="com.example.admin.stockFragment"
+52-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:38:13-42
+53            android:exported="false"
+53-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:39:13-37
+54            android:theme="@style/Theme.ClinicSystem.NoActionBar"
+54-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:40:13-66
+55            android:windowSoftInputMode="stateHidden" />
+55-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:41:13-54
+56        <activity
+56-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:42:9-46:57
+57            android:name="com.example.admin.patientFragment"
+57-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:43:13-44
+58            android:exported="false"
+58-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:44:13-37
+59            android:theme="@style/Theme.ClinicSystem.NoActionBar"
+59-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:45:13-66
+60            android:windowSoftInputMode="stateHidden" />
+60-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:46:13-54
+61        <activity
+61-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:47:9-49:40
+62            android:name="com.example.admin.cscheduleFragment"
+62-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:48:13-46
+63            android:exported="false" />
+63-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:49:13-37
+64        <activity
+64-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:50:9-52:40
+65            android:name="com.example.admin.Login"
+65-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:51:13-34
+66            android:exported="false" />
+66-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:52:13-37
+67        <activity
+67-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:53:9-55:40
+68            android:name="com.example.admin.Treatment"
+68-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:54:13-38
+69            android:exported="false" />
+69-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:55:13-37
+70        <activity
+70-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:56:9-59:69
+71            android:name="com.example.admin.docMain"
+71-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:57:13-36
+72            android:exported="false"
+72-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:58:13-37
+73            android:theme="@style/Theme.ClinicSystem.NoActionBar" />
+73-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:59:13-66
+74        <activity
+74-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:60:9-68:20
+75            android:name="com.example.admin.MainActivity"
+75-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:61:13-41
+76            android:exported="true" >
+76-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:62:13-36
+77            <intent-filter>
+77-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:63:13-67:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:64:17-69
+78-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:64:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:66:17-77
+80-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:66:27-74
+81            </intent-filter>
+82        </activity>
+83
+84        <meta-data
+84-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:70:9-72:57
+85            android:name="preloaded_fonts"
+85-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:71:13-43
+86            android:resource="@array/preloaded_fonts" />
+86-->C:\Users\USER\OneDrive\Desktop\Sem5\FYP\ClinicSystem\admin\src\main\AndroidManifest.xml:72:13-54
+87
+88        <service
+88-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+92            <meta-data
+92-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+93-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-database:20.0.5] C:\Users\USER\.gradle\caches\transforms-3\5e6062ddfda4e2cd18a94aaf7e8d06ab\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+95        </service>
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\dc98baf5d8c98bf7c91ab6a8d963ffb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\dc98baf5d8c98bf7c91ab6a8d963ffb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\dc98baf5d8c98bf7c91ab6a8d963ffb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\dc98baf5d8c98bf7c91ab6a8d963ffb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+104            android:authorities="com.example.admin.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.1.1] C:\Users\USER\.gradle\caches\transforms-3\f37cf71e5194c129bf428d377c1a6542\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\1de81512b806689de060a390e5179239\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\1de81512b806689de060a390e5179239\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\1de81512b806689de060a390e5179239\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+115            android:authorities="com.example.admin.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c30cb36523774be6dc80787a908805d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\9e24dea7adc0e5aeaf57ecc7cedc05de\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\9e24dea7adc0e5aeaf57ecc7cedc05de\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\9e24dea7adc0e5aeaf57ecc7cedc05de\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+123        </provider>
+124    </application>
+125
+126</manifest>
