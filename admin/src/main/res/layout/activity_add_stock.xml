@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-16dp"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    app:fontFamily="@font/baloo"
+                    android:layout_marginTop="16dp"
+                    android:text="Add New Tool"
+                    android:textAlignment="center"
+                    android:textSize="36sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvadd_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="Tool Name: "
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:padding="10dp"
+                        android:id="@+id/add_name"
+                        android:layout_width="800dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_toRightOf="@+id/tvadd_name"
+                        android:background="@drawable/edit_text_bg"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvadd_quan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="Quantity: "
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
+
+                    <LinearLayout
+                        android:layout_toRightOf="@+id/tvadd_quan"
+                        android:layout_width="800dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="100dp"
+                        android:paddingLeft="18dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/decrease"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:onClick="decreaseInteger"
+                            android:text="-" />
+
+                        <EditText
+                            android:id="@+id/integer_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="1"
+                            android:inputType="number"
+                            android:background="@null"
+                            android:textStyle="bold"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/increase"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:onClick="increaseInteger"
+                            android:text="+" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/button_bg"
+                    android:text="ADD"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
