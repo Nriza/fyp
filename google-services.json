@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1088977369835",
+    "firebase_url": "https://clinicsystem-197dd-default-rtdb.firebaseio.com",
+    "project_id": "clinicsystem-197dd",
+    "storage_bucket": "clinicsystem-197dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088977369835:android:2059402d5b7bb9e8ba1cae",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088977369835-vcoul2alhud8r5809hukb1ppcqap83r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH0Xhw3CQs-7RdwPrE9WbxZTfGjjaqYcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088977369835-vcoul2alhud8r5809hukb1ppcqap83r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088977369835:android:57e8ab1bedc5d202ba1cae",
+        "android_client_info": {
+          "package_name": "com.example.clinicsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088977369835-vcoul2alhud8r5809hukb1ppcqap83r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH0Xhw3CQs-7RdwPrE9WbxZTfGjjaqYcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088977369835-vcoul2alhud8r5809hukb1ppcqap83r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
