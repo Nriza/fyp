@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/aclonica</item>
+        <item>@font/advent_pro</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/alike_angular</item>
+        <item>@font/bad_script</item>
+        <item>@font/baloo</item>
+    </array>
+</resources>
