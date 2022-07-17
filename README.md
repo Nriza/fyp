@@ -5,6 +5,6 @@ From this application, patient can view their history treatment, make an appoint
 
 /* How to install Clinic Management System */
 1. download apk file from https://github.com/Nriza/fyp/tree/main/apkFile 
-2. Make sure the apk file is downloaded using androind and for admin.apk need to dowload in tablet.
+2. Make sure the apk file is downloaded using androind and for admin-debug.apk need to dowload in tablet.
 3. When your android ask the permission to intall unknown apps, click allow.
 4. The application is intalled. 
