@@ -8,3 +8,6 @@ From this application, patient can view their history treatment, make an appoint
 2. Make sure the apk file is downloaded using androind and for admin-debug.apk need to dowload in tablet.
 3. When your android ask the permission to intall unknown apps, click allow.
 4. The application is intalled. 
+
+/* How to use Clinic Management System */
+1. 
